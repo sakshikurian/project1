@@ -1,113 +1,68 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function MainPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="bg-[#EA5959] flex flex-row p-[161px_0_161px_0] w-[1440px] box-sizing-border">
+      <div className="shadow-[0px_10px_10px_0px_rgba(0,0,0,0.25)] rounded-[8px] bg-[#FFFFFF] absolute left-[14%] top-[235px] translate-x-[-50%] w-[983px] h-[702px]"></div>
+      <div className="relative m-[300px_52.1px_437px_0] flex flex-col box-sizing-border">
+        <div className="m-[0_0_24px_0] inline-block self-start break-words font-['Lato'] font-bold text-[22px]  absolute left-[250px] bottom-[170px] text-[#646060]">
+          All
+        </div>
+        <div className="m-[0_0_24px_300px] inline-block self-start break-words font-['Lato'] font-normal absolute top-[0px] left-[70px] text-[22px] text-[#525252]">
+          Active
+        </div>
+        <span className="break-words font-['Lato'] font-normal text-[22px] absolute top-[50px] left-[250px] text-[#525252]">
+          Completed
+        </span>
+      </div>
+      <div className="bg-[#D8D8D8] relative m-[73px_300px_0_0] w-[1px] h-[702px] "></div>
+      <div className="relative m-[191px_0_327px_0] flex flex-col w-[678px] box-sizing-border">
+        <div className="m-[0_0_25px_0] inline-block self-start break-words font-['Lato'] font-bold text-[31px] text-[#000000]">
+          All Tasks
+        </div>
+        <div className="rounded-[8px] bg-[#F3F3F3] relative m-[0_0_32px_0] p-[10px_27px_15px_27px] w-[fit-content] box-sizing-border">
+          <span className="break-words font-['Lato'] font-normal text-[18px] text-[#B5B5B5]">
+            Add a new task inside ‘All’ category
+          </span>
+        </div>
+        <div className="m-[0_500px_16px_0] flex flex-row justify-between w-[668px] box-sizing-border">
+          <div className="flex flex-row box-sizing-border">
+            <div className="rounded-[8px] border-[1px_solid_#5A5A5A] m-[0_18px_0_0] w-[28px] h-[28px]"></div>
+            <div className="m-[3px_0_3px_0] inline-block break-words font-['Lato'] font-normal text-[18px] text-[#5A5A5A]">
+              Get a new helmet
+            </div>
+          </div>
+          <img className="m-[0_0_11.7px_0] w-[14px] h-[16.3px]" />
+        </div>
+        <div className="m-[0_0_16px_0] flex flex-row self-start w-[fit-content] box-sizing-border">
+          <div className="rounded-[8px] bg-[rgba(90,90,90,0.5)] m-[0_18px_0_0] w-[28px] h-[28px]"></div>
+          <div className="m-[3px_0_3px_0] inline-block break-words font-['Lato'] font-normal text-[18px] line-through text-[rgba(90,90,90,0.5)]">
+            Purchase Milk &amp; Corn Flakes
+          </div>
+        </div>
+        <div className="m-[0_0_16px_0] flex flex-row self-start w-[fit-content] box-sizing-border">
+          <div className="rounded-[8px] border-[1px_solid_#5A5A5A] m-[0_18px_0_0] w-[28px] h-[28px]"></div>
+          <div className="m-[3px_0_3px_0] inline-block break-words font-['Lato'] font-normal text-[18px] text-[#5A5A5A]">
+            Pay mortgage
+          </div>
+        </div>
+        <div className="m-[0_0_16px_0] flex flex-row self-start w-[fit-content] box-sizing-border">
+          <div className="rounded-[8px] border-[1px_solid_#5A5A5A] m-[0_18px_0_0] w-[28px] h-[28px]"></div>
+          <div className="m-[3px_0_3px_0] inline-block break-words font-['Lato'] font-normal text-[18px] text-[#5A5A5A]">
+            Complete Assignments
+          </div>
+        </div>
+        <div className="flex flex-row self-start w-[fit-content] box-sizing-border">
+          <div className="rounded-[8px] bg-[rgba(90,90,90,0.5)] relative m-[0_18px_0_0] flex p-[8.5px_6.6px_8.5px_6.6px] w-[28px] h-[28px] box-sizing-border">
+            <div className="flex w-[14.8px] h-[11px] box-sizing-border">
+              <img className="w-[14.8px] h-[11px]" />
+            </div>
+          </div>
+          <div className="m-[3px_0_3px_0] inline-block break-words font-['Lato'] font-normal text-[18px] line-through text-[rgba(90,90,90,0.5)]">
+            Replace laptop’s screen
+          </div>
         </div>
       </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
