@@ -9,7 +9,7 @@ export default function MainPage() {
           <input
             type="text"
             id="todo"
-            className="  space-y-1 border-none  text-gray-600  rounded-lg  w-[640px] p-2.5 px-5 dark:bg-[#F3F3F3] dark:border-gray-100 dark:placeholder-gray-400 font-normal text-[18px] "
+            className=" border-none  text-gray-600  rounded-lg  w-[640px] p-2.5 px-5 dark:bg-[#F3F3F3] dark:border-gray-100 dark:placeholder-gray-400 font-normal text-[18px] "
             placeholder="Add a new task inside 'All' category"
             required
           />
